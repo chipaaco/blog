@@ -1,0 +1,23 @@
+title: Pipsqueak
+description: "Pipsqueak is a personal site for experiments, short essays and notes by Chipaaco. Content may be Spanish or English and sometimes LLM-assisted. This is a casual space for exploring ideas, not for fame."
+author:
+  name: Tossutti M. C. Daniel (Chipaaco)
+  email: nobody@cares.com
+theme: minima
+lang: en
+url: ""
+baseurl: ""
+
+minima:
+  skin: solarized
+  nav_pages:
+    - about.md
+  date_format: "%b %-d, %Y"
+  show_excerpts: true
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/chipaaco"
+    - title: Telegram
+      icon: telegram
+      url: "https://t.me/chipaaco"
