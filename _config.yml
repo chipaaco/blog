@@ -5,8 +5,8 @@ author:
   email: nobody@cares.com
 theme: minima
 lang: en
-url: ""
-baseurl: ""
+url: "https://chipaaco.github.io"
+baseurl: "/blog"
 
 minima:
   skin: solarized

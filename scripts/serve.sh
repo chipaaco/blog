@@ -8,4 +8,4 @@ export BUNDLE_PATH="${BUNDLE_PATH:-vendor/bundle}"
 export BUNDLE_USER_HOME="${BUNDLE_USER_HOME:-$HOME/.bundle}"
 
 bundle check >/dev/null 2>&1 || bundle install
-bundle exec jekyll serve --livereload --force_polling --drafts "$@"
+bundle exec jekyll serve --livereload --force_polling --drafts --baseurl "" "$@"
